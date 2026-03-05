@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  font-family: 'Nunito', sans-serif;
+}
+:root {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+#root{
+margin:  0 auto;
+padding: 0 ;
+width: 100%;
+height: 100%;
+max-width: 2560px !important;
+
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* cards */
+/* From Uiverse.io by satyamchaudharydev */ 
+/* this card is inspired form this - https://georgefrancis.dev/ */
+
+.tcard {
+  --border-radius: 0.75rem;
+  --primary-color: #a1a1a1;
+  --secondary-color: #4f4f4f;
+  width: 100%;
+  font-family: "Arial";
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  border: 1px solid #eae3e3;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.03);
+  position: relative;
+}
+
+.tcard > * + * {
+  margin-top: 1.1em;
+}
+
+.tcard .tcard__content {
+  color: var(--secondary-color);
+  font-size: 0.86rem;
+}
+
+.tcard .tcard__title {
+  padding: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.tcard .tcard__date {
+  color: #6e6b80;
+  font-size: 0.8rem;
+}
+
+.tcard .tcard__arrow {
+  position: absolute;
+  background: var(--primary-color);
+  padding: 0.4rem;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  bottom: 0;
+  right: 0;
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tcard svg {
+  transition: 0.2s;
+}
+
+/* hover */
+.tcard:hover .tcard__title {
+  color: #000;
+  text-decoration: underline;
+}
+
+.tcard:hover .tcard__arrow {
+  background: #111;
+}
+
+.tcard:hover .tcard__arrow svg {
+  transform: translateX(3px);
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 6px;  /* Width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;  /* Track background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a9a8a8;  /* Scrollbar handle */
+  border-radius: 4px;   /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #aeaeae;     /* Handle on hover */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.flex:hover {
+  animation-play-state: paused;
+}
