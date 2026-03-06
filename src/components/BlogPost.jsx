@@ -35,7 +35,7 @@ export default function BlogPost() {
 
   const renderContent = (block) => {
     switch (block.type) {
-      case "paragraph":
+      case "paragraph":{
         // New function to convert URLs in text to clickable links
         const convertUrlsToLinks = (text) => {
           const urlRegex = /(https?:\/\/[^\s]+)|(www\.[^\s]+)/g;
@@ -65,7 +65,8 @@ export default function BlogPost() {
             {convertUrlsToLinks(block.content)}
           </p>
         );
-      case "heading":
+      }  
+      case "heading":{
         const HeadingTag = `h${block.level || 2}`; // default to h2 if no level is specified
         return (
           <HeadingTag
@@ -80,7 +81,7 @@ export default function BlogPost() {
             {block.content}
           </HeadingTag>
         );
-
+      }  
       case "list":
         return (
           <ul className="list-disc ml-6 my-4">
