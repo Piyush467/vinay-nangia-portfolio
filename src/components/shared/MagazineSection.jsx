@@ -19,11 +19,11 @@ export default function MagazineSection() {
           href="https://www.businesstalkz.com/2026/02/top-minds-in-academia-edition-05.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="group flex bg-white border border-neutral-200 rounded-lg overflow-hidden hover:shadow-xl transition duration-300"
+          className="group flex flex-col md:flex-row bg-white border border-neutral-200 rounded-lg overflow-hidden hover:shadow-xl transition duration-300"
         >
 
           {/* Image */}
-          <div className="w-[40%] overflow-hidden">
+          <div className="w-full md:w-[40%] overflow-hidden">
             <img
               src={eventImage}
               alt="Top Minds in Academia"
@@ -32,7 +32,7 @@ export default function MagazineSection() {
           </div>
 
           {/* Content */}
-          <div className="flex flex-col justify-center gap-3 p-6 w-[60%]">
+          <div className="flex flex-col justify-center gap-3 p-6 w-full md:w-[60%]">
 
             <span className="text-xs font-semibold tracking-wide text-neutral-500">
               BUSINESS TALKZ MAGAZINE
@@ -61,11 +61,11 @@ export default function MagazineSection() {
           href="https://www.businesstalkz.com/2025/03/top-icons-of-india-magazine-edition-140.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="group flex bg-white border border-neutral-200 rounded-lg overflow-hidden hover:shadow-xl transition duration-300"
+          className="group flex flex-col md:flex-row bg-white border border-neutral-200 rounded-lg overflow-hidden hover:shadow-xl transition duration-300"
         >
 
           {/* Image */}
-          <div className="w-[40%] overflow-hidden">
+          <div className="w-full md:w-[40%] overflow-hidden">
             <img
               src={topIcons}
               alt="Top Icons of India"
@@ -74,7 +74,7 @@ export default function MagazineSection() {
           </div>
 
           {/* Content */}
-          <div className="flex flex-col justify-center gap-3 p-6 w-[60%]">
+          <div className="flex flex-col justify-center gap-3 p-6 w-full md:w-[60%]">
 
             <span className="text-xs font-semibold tracking-wide text-neutral-500">
               BUSINESS TALKZ MAGAZINE
