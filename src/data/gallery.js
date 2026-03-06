@@ -95,6 +95,7 @@ import img_116 from "../assets/gallery/img_116.jpg";
 import img_117 from "../assets/gallery/img_117.jpg";
 import img_118 from "../assets/gallery/img_118.jpeg";
 import img_119 from "../assets/gallery/img_119.jpeg";
+import img_120 from "../assets/gallery/event-1.jpeg";
 import img_1 from "../assets/gallery/img_1.jpg";
 import img_2 from "../assets/gallery/img_2.jpg";
 import img_3 from "../assets/gallery/img_3.jpg";
@@ -110,6 +111,10 @@ import img_00001 from "../assets/gallery/img_00001.jpg";
 
 
 export const galleryImages = [
+  {
+    img: img_120,
+    title: "Latest Event",
+  },
   {
     img: img_118,
     title: "top1",
