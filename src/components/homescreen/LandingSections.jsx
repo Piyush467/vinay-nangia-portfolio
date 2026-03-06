@@ -1,4 +1,5 @@
 import React from "react";
+import MagazineSection from "../shared/MagazineSection";
 import {
   master_speaks,
   smart_banking,
@@ -680,6 +681,8 @@ export default function LandingSections() {
         </div>
       </section>
       {/* end of Blog Section */}
+      {/* Magazine Section */}
+      <MagazineSection />
 
       {/* start of Scroll Gallery */}
       <section className="w-full h-full flex flex-col">
