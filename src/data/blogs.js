@@ -1,5 +1,123 @@
 export const blogs = [
   {
+id:"103",
+title:"Keynote Address by Prof. Vinay Nangia at International Conference on Management Research, Innovation and Corporate Leadership",
+slug:"keynote-address-management-research-innovation-corporate-leadership",
+description:"Keynote Address delivered by Prof. Vinay Kumar Nangia on February 27, 2026 at the International Conference on Management Research, Innovation and Corporate Leadership organised by LMT School of Management.",
+date:"27-02-26",
+author:"Prof. Vinay Nangia",
+role:"Distinguished Professor | Institution Builder | Academic Governance & Strategy | Mentor to Leaders, Faculty & Startups | Author",
+thumbnail:"/images/javascript.jpg",
+content:[
+
+{
+type:"paragraph",
+content:"Keynote Address delivered by Professor Vinay Kumar Nangia on February 27, 2026, in the Inaugural Session of the International Conference on Management Research, Innovation and Corporate Leadership organised by LMT School of Management on February 27–28, 2026."
+},
+
+{
+type:"paragraph",
+content:"Respected dignitaries on the dais, esteemed faculty members, distinguished scholars, corporate leaders, and my young friends—the students—welcome to this conference. First of all, I would like to express my gratitude for inviting me to address this august gathering."
+},
+
+{
+type:"paragraph",
+content:"I would also like to appreciate the very timely theme of this International Conference and the well-designed plenary sessions. Such academic gatherings create opportunities for reflection on the future of management research, innovation, and leadership."
+},
+
+{
+type:"paragraph",
+content:"Seventy years ago, Lala Karam Chand Thapar founded the Thapar Institute of Engineering & Technology in 1956. His son Lalit Mohan Thapar played a crucial role in bringing Professor N. C. Nigam on board to design the academic framework of the institute. TIET later attained deemed-to-be-university status in 1985."
+},
+
+{
+type:"paragraph",
+content:"Professor N. C. Nigam made profound contributions to higher education, management education, and innovation. He served IIT Kanpur, IIT Delhi, Goa University and the University of Roorkee in key leadership roles. His vision helped establish initiatives promoting industry-academia collaboration and technology transfer."
+},
+
+{
+type:"paragraph",
+content:"I feel privileged to have been introduced to academics by Professor Nigam. I joined as the first employee and the first Professor in the Department of Management Studies at Roorkee when he envisioned management education to produce techno-managers within engineering institutions."
+},
+
+{
+type:"paragraph",
+content:"Over the decades, management education in India evolved significantly. Early business schools focused largely on training and placements, while research remained limited. Gradually, research in management gained acceptance as an academic discipline within universities."
+},
+
+{
+type:"paragraph",
+content:"With policy initiatives like the National Institutional Ranking Framework and the growing emphasis on interdisciplinary research, management scholarship today increasingly integrates multiple disciplines to solve complex real-world problems."
+},
+
+{
+type:"paragraph",
+content:"A key shift today is from interdisciplinary to transdisciplinary research—where academic insights integrate with practical knowledge from industry, communities, and policy makers to generate impactful solutions."
+},
+
+{
+type:"paragraph",
+content:"Another important shift in management thinking is moving from shareholder value toward stakeholder-centric models that prioritize customers, communities, and long-term sustainability."
+},
+
+{
+type:"paragraph",
+content:"Historically, every era has been defined by dominant ideas: Development in the 1960s, Growth in the 1970s, Globalisation in the 1990s, and Sustainability in the present era. If development was the dream of the past, innovation is the operating system of the present decade."
+},
+
+{
+type:"paragraph",
+content:"Innovation and sustainability are no longer optional—they are imperatives for meaningful growth and enduring development. In a world facing climate crises, resource constraints, and widening inequalities, economic progress must align with environmental stewardship and social responsibility."
+},
+
+{
+type:"paragraph",
+content:"Governments, businesses, universities, and communities must collaborate to build systems that promote sustainable innovation. Emerging technologies such as artificial intelligence, IoT, and digital platforms can help optimise resources and create new opportunities for inclusive growth."
+},
+
+{
+type:"paragraph",
+content:"At the same time, we must confront barriers such as regulatory fragmentation, unequal access to opportunities, and financial constraints. The path forward requires inclusive policies, blended financing, and strong collaboration across sectors."
+},
+
+{
+type:"paragraph",
+content:"In their book Revolutionary Wealth, Alvin and Heidi Toffler illustrate how institutions adapt to change at different speeds. Businesses move rapidly, governments adapt more slowly, education systems even slower, and legal frameworks often take the longest to evolve."
+},
+
+{
+type:"paragraph",
+content:"Leadership today must therefore move beyond traditional control-based models. In the 20th century leadership focused on authority and hierarchy. In the 21st century it must focus on coherence, trust, and collective intelligence."
+},
+
+{
+type:"paragraph",
+content:"We are living in a VUCA world—volatile, uncertain, complex, and ambiguous. In such an environment, leadership must shift from individual brilliance to collaborative intelligence, from rigid authority to trust-based systems, and from prediction to preparedness."
+},
+
+{
+type:"paragraph",
+content:"Corporate leadership today must integrate profitability with responsibility, sustainability, and societal trust. Leadership without legitimacy is no longer leadership—it becomes a liability."
+},
+
+{
+type:"paragraph",
+content:"Once again, while complimenting the organisers for planning and organising this International Conference so effectively, I am confident it will generate not only high-quality academic papers but also actionable ideas that contribute to meaningful progress."
+},
+
+{
+type:"paragraph",
+content:"I recently came across a LinkedIn survey identifying the top education skills required in today’s world. Interestingly, networking emerged as the most important skill. Conferences like this provide an excellent opportunity for participants to engage in intellectual networking and collaborative learning."
+},
+
+{
+type:"paragraph",
+content:"Let this conference ignite meaningful collaborations, inspire new research directions, and encourage innovative thinking that contributes to sustainable development and responsible leadership. Best wishes and good luck to all participants."
+}
+
+]
+},
+  {
     id:"102",
     title:"Story of some Titles turned into Surnames- Chaudhary, Patel, Malik, Diwan, Mullick, Deshmukh, and Rao",
     slug:"Story of titles to surnames",
